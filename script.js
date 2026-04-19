@@ -8,6 +8,7 @@ dropdowns.forEach(dropdown => {
     }
   });
 
+  
   dropdown.addEventListener('mouseleave', () => {
     if (window.innerWidth > 1000) {
       dropdown.classList.remove('active');
